@@ -66,7 +66,11 @@ public class FitPeo extends Utility {
      
      //verifying Total Recurring Reimbursement
      fitPeoPage.verifyHeaderValue("$110700");
-     
-	}
+
+	
+     // Closing Browser
+     closeBrowser();
+		
+}
 
 }
