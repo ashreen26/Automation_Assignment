@@ -120,10 +120,8 @@ public class FitPeoPage extends Utility{
 	public void verifyTextField(String desiredValue) throws InterruptedException {   
 	    if (getAttributeValue(getTextField()).equals(String.valueOf(desiredValue))) {
 	        System.out.println("Slider value successfully set to " + getAttributeValue(getTextField()) + ".");
-	        Thread.sleep(10);
 	    } else {
 	        System.out.println("Failed to set slider value. Current value: " + getAttributeValue(getTextField()));
-	        Thread.sleep(10);
 	    }
 	}
 	
